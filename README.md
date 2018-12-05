@@ -1,1 +1,4 @@
-# wasm
+wasm
+===
+
+A go WebAssembly Playground

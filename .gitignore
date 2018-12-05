@@ -1,0 +1,8 @@
+# Go WebAssembly module file
+**/*.wasm
+
+# Javascript support file
+public/wasm_exec.js
+
+# Go binary
+wasm
