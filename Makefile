@@ -3,7 +3,7 @@ test:
 
 run-%:
 	#GOOS=js GOARCH=wasm go run -exec="$(shell go env GOROOT)/misc/wasm/go_js_wasm_exec" ./src/fmt
-	go run ./src/fmt
+	go run ./src/$*
 
 build-%:
 	GOOS=js GOARCH=wasm go build -o public/lib.wasm ./src/$*
