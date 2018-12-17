@@ -10,5 +10,16 @@
 			});
 		</script>
 	</head>
-	<body></body>
+  <body>
+
+    <form action="/" method="post">
+      <input type="text" id="value1"/>
+      <input type="text" id="value2"/>
+	    <input type="text" id="result">
+    </form>
+
+	<button onClick="add('value1', 'value2', 'result');" id="addButton">Add</button>
+	<button onClick="subtract('value1', 'value2', 'result');" id="subtractButton">Subtract</button>
+
+  </body>
 </html>
